@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rohan Raj Rahul – Technology, Law &amp; Policy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button
+        class="burger"
+        aria-label="Menu"
+        onclick="document.querySelector('nav').classList.toggle('open')"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <a href="#home" class="active">Home</a><a href="#about">About</a
+        ><a href="#research">Research</a><a href="#projects">Projects</a
+        ><a href="#experience">Experience</a><a href="#news">News</a>
+      </nav>
+      <a class="logo" href="#home" aria-label="Home">R^3</a>
+      <div class="icons">
+        <a href="mailto:bzsrajrahul@gmail.com" aria-label="Email"
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <rect x="2" y="4" width="20" height="16" rx="3" />
+            <path d="m3 7 9 6 9-6" /></svg
+        ></a>
+        <a
+          href="assets/cv%20of%20R.R.Rahul.pdf"
+          target="_blank"
+          rel="noopener"
+          aria-label="Resume"
+          style="font-weight: 600; text-decoration: none"
+          >CV</a
+        >
+        <button id="theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </header>
+
+    <a class="hire" href="#contact" aria-label="Hire me">
+      <svg viewBox="0 0 120 120">
+        <defs>
+          <path id="c" d="M60 60 m-48 0 a48 48 0 1 1 96 0 a48 48 0 1 1 -96 0" />
+        </defs>
+        <text>
+          <textPath href="#c">• Policy Research • Developer</textPath>
+        </text>
+      </svg>
+      <span>Say Hi</span>
+    </a>
+    <svg class="bulb" id="bulb" viewBox="0 0 60 90" aria-label="Idea">
+      <path
+        d="M30 4C14 4 4 16 4 30c0 10 6 16 11 22v10h30V52c5-6 11-12 11-22C56 16 46 4 30 4z"
+        fill="#fcc934"
+        stroke="#1b1b1b"
+        stroke-width="3"
+      />
+      <rect
+        x="16"
+        y="66"
+        width="28"
+        height="14"
+        rx="4"
+        fill="#ddd"
+        stroke="#1b1b1b"
+        stroke-width="3"
+      />
+    </svg>
+
+    <main>
+      <section id="home">
+        <div class="portrait">
+          <img src="assets/images/me.jpg" alt="Rohan Raj Rahul" />
+        </div>
+        <div>
+          <h1>Where Technology Meets Law And Public Policy.</h1>
+          <p class="lead">
+            I'm Rohan Raj Rahul, an Electrical and Electronics Engineering
+            graduate from NITK Surathkal. I build full-stack and agentic AI
+            applications, and I'm heading into migration and refugee law, public
+            policy and economics to study how technology, law and society shape
+            governance.
+          </p>
+          <div class="btns">
+            <a class="btn" href="assets/cv%20of%20R.R.Rahul.pdf" target="_blank" rel="noopener"
+              >Resume ↗</a
+            ><a class="link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="aboutwrap">
+          <aside class="side">
+            <img
+              class="avatar"
+              src="assets/images/me.jpg"
+              alt="Rohan Raj Rahul"
+            />
+            <h3>Rohan Raj Rahul</h3>
+            <p class="role">
+              Engineer · Aspiring Migration Law &amp; Policy Researcher
+            </p>
+            <p class="aff">
+              <a href="https://www.nitk.ac.in" target="_blank" rel="noopener"
+                >NITK Surathkal</a
+              >
+              (B.Tech)<br /><a
+                href="https://www.nls.ac.in"
+                target="_blank"
+                rel="noopener"
+                >NLSIU, Bengaluru</a
+              >
+              (MBL)<br /><a
+                href="https://aud.ac.in"
+                target="_blank"
+                rel="noopener"
+                >Ambedkar University Delhi</a
+              >
+              (M.A.)
+            </p>
+            <p class="aff">
+              Email:
+              <a href="mailto:bzsrajrahul@gmail.com">bzsrajrahul@gmail.com</a
+              ><br />Phone: +91 98313 77501
+            </p>
+            <div class="pills">
+              <a class="pill" href="assets/cv%20of%20R.R.Rahul.pdf" target="_blank" rel="noopener"
+                >CV</a
+              ><a class="pill" href="mailto:bzsrajrahul@gmail.com">Email</a>
+            </div>
+          </aside>
+          <div class="prose">
+            <h2 class="left">About</h2>
+            <p>
+              I'm an Electrical and Electronics Engineering graduate from
+              <a href="https://www.nitk.ac.in" target="_blank" rel="noopener"
+                >NITK Surathkal</a
+              >, now studying for a Master of Business Laws at NLSIU Bengaluru
+              and an M.A. in Economics at Ambedkar University Delhi.
+            </p>
+            <p>
+              I build <b>full-stack and agentic AI applications</b>, such as the
+              Tirthofy pilgrimage super-app and LangGraph agent workflows. I
+              want to bring that technical background to
+              <b>migration governance, refugee law and public policy</b>, and
+              contribute to evidence-based research and institutional
+              initiatives.
+            </p>
+            <p>Three questions organise most of what I want to work on:</p>
+            <ul>
+              <li>
+                <b>Law: do protections work in practice?</b> Legal frameworks
+                for people on the move are written on paper and tested at
+                borders and in courts.
+              </li>
+              <li>
+                <b>Policy: what does the evidence say?</b> Economics gives me
+                tools to ask which policies actually help, and for whom.
+              </li>
+              <li>
+                <b>Technology: can systems be fair and accountable?</b> I want
+                to see how software can support institutions without creating
+                new risks.
+              </li>
+            </ul>
+            <p class="skills">
+              <span>Python</span><span>Dart</span><span>JavaScript</span
+              ><span>Flutter</span><span>Node.js</span><span>LangGraph</span
+              ><span>LangSmith</span><span>Git &amp; GitHub</span
+              ><span>Critical thinking</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="band">
+        <h2 class="sm">Research Interests</h2>
+        <div class="prose wide">
+          <p>
+            I'm at the start of my research path. The areas below are where I
+            plan to focus during my MBL and M.A. Economics.
+          </p>
+          <ul>
+            <li>
+              <b>Migration governance and refugee law.</b> How international and
+              national legal frameworks treat displacement, asylum and mobility.
+            </li>
+            <li>
+              <b>Public policy and economics.</b> Evidence-based analysis of
+              migration policy, labour markets and welfare outcomes.
+            </li>
+            <li>
+              <b>Technology, law and society.</b> The role of AI and digital
+              systems in public administration, and the legal safeguards they
+              need.
+            </li>
+            <li>
+              <b>Interdisciplinary research.</b> Combining legal reasoning,
+              economic methods and software skills in a single study.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Things I've Built</h2>
+        <article class="card">
+          <div>
+            <p class="tag">Major Project II · May 2026</p>
+            <h3>An Integrated Pilgrimage SuperApp</h3>
+            <p>
+              A full-stack religious tourism platform built with Flutter,
+              Node.js, Express.js and MongoDB. It includes Gemini AI, JWT
+              authentication, Socket.IO, Kafka messaging, Razorpay payments,
+              Redis caching, Firebase, Cloudinary media storage, role-based
+              access control and cloud deployment.
+            </p>
+            <div class="row">
+              <a class="btn" href="#contact">Get in touch</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div>
+            <p class="tag">Major Project I · Dec 2025</p>
+            <h3>Pilgrimage Asistant App With FireBase and Flutter</h3>
+            <p>
+              A Flutter religious tourism app using Clean Architecture and
+              Provider. It uses Firebase Authentication and Cloud Messaging,
+              Google Maps Platform APIs (Places, Directions, Geocoding),
+              RapidAPI for travel services, and Gemini AI for personalised
+              pilgrimage itineraries.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="experience">
+        <h2 class="sm">Experience &amp; Education</h2>
+        <div class="list">
+          <div class="art">
+            <span
+              ><b>Internship Project, NITK Surathkal</b><br /><small
+                >Built AI applications with LangChain, LangGraph and LangSmith:
+                agent workflows, tool integration, full-stack apps and
+                deployment.</small
+              ></span
+            ><time>May – Jul 2026</time>
+          </div>
+          <div class="art">
+            <span
+              ><b>Member, Utkrishta Bharath Club, NITK Surathkal</b><br /><small
+                >Took part in initiatives promoting Indian culture, heritage and
+                cultural awareness on campus.</small
+              ></span
+            ><time>Oct 2025 – May 2026</time>
+          </div>
+          <div class="art">
+            <span
+              ><b>Master of Business Laws (MBL)</b><br /><small
+                >National Law School of India University (NLSIU),
+                Bengaluru</small
+              ></span
+            ><time>2026 – 2028</time>
+          </div>
+          <div class="art">
+            <span
+              ><b>M.A. in Economics</b><br /><small
+                >Dr. B. R. Ambedkar University Delhi (AUD)</small
+              ></span
+            ><time>2026 – 2028</time>
+          </div>
+          <div class="art">
+            <span
+              ><b>B.Tech in Electrical and Electronics Engineering</b
+              ><br /><small>NITK Surathkal</small></span
+            ><time>2022 – 2026</time>
+          </div>
+          <div class="art">
+            <span
+              ><b>References</b><br /><small
+                >Jora M Gonda, Associate Professor, NITK Surathkal ·
+                joragondam@gmail.com · +91-9448093455<br />Rahul Sivarajan,
+                Assistant Professor, NITK Surathkal · rahul.skn@nitk.edu.in ·
+                +91-7306195346</small
+              ></span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="band tight">
+        <h2 class="sm">News</h2>
+        <div class="news">
+          <p>
+            <time>2026</time> Started the Master of Business Laws at NLSIU
+            Bengaluru and the M.A. in Economics at Ambedkar University Delhi.
+          </p>
+          <p>
+            <time>Jul 2026</time> Finished an internship project at NITK
+            Surathkal building agentic AI applications with LangChain, LangGraph
+            and LangSmith.
+          </p>
+          <p>
+            <time>May 2026</time> Completed
+            <i>Tirthofy: An Integrated Pilgrimage SuperApp</i> as Major Project
+            II.
+          </p>
+          <p>
+            <time>Dec 2025</time> Completed <i>The Tirthofy Trails</i> as Major
+            Project I.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" style="min-height: 50vh; text-align: center">
+        <h2 class="sm">Get in touch</h2>
+        <p class="lead" style="margin: 0 auto 28px">
+          Laxmi Nagar, Delhi 110092 · +91 98313 77501
+        </p>
+        <a class="btn" href="mailto:bzsrajrahul@gmail.com"
+          >bzsrajrahul@gmail.com</a
+        >
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
